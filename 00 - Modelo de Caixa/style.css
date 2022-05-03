@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo {
+    border: 1px solid red;
+    width: 200px;
+    height: 150;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+/* Manipulando sa partes interna do elemento*/
+    padding: 20px;
+    
+    /*padding-top: ;
+    padding-left: ;
+    padding-bottom: ;
+    padding-right: ; */
+
+    /* Manipulando a parte externa do elemento*/
+
+
+}

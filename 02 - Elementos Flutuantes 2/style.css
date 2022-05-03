@@ -1,0 +1,23 @@
+#principal {
+    border: 5px solid black;
+    width: 900px;
+    background-color: indigo;
+}
+
+.conteudo {
+    border: 1px solid red;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    color: white;
+
+    float: right;
+}
+
+/* claer: none(default), right, left, both*/
+
+.clear {
+    clear: right;
+}

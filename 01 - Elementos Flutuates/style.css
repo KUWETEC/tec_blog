@@ -1,0 +1,21 @@
+.conteudo, .left, .right {
+    border: 3px solid red;
+    background-color: blue;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    color: white;
+
+    /* Elemento flutuante*/
+}
+
+    /*float none(default), left, right */
+.left {
+    background-color: green;
+    float: left;
+}
+
+.right {
+    background-color: black;
+    float: right;
+}
