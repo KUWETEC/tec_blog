@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(209, 209, 209);
+}
+
+#principal {
+    border: 5px solid rgba(0, 0, 0, 0);
+    width: 900px;
+}
+.conteudo {
+    border: 1px solid rgb(179, 179, 179);
+    background-color: rgb(161, 161, 161);
+    width: 260px;
+    height: 170px;
+    margin: 5px;
+    color: black;
+    padding: 5px;
+
+    float: left;
+}
+
+.clear {
+    clear: left;
+}
+
+.conteudo-img {
+    border: 1px solid rgb(179, 179, 179);
+    background-color: rgb(161, 161, 161);
+    width: 260px;
+    height: 230px;
+    margin: 5px;
+    color: black;
+    padding: 5px;
+
+    float: left;
+}
+
+.conteudo-img h2 {
+    text-align: center;
+}
+
+
+
+
