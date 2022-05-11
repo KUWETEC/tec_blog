@@ -11,7 +11,8 @@ body {
     height: 300px;
     background-color: green;
     margin: 10px;
-    position: fixed;
+    margin-left: 200px;
+    position: relative;
   
 }
 
@@ -19,6 +20,13 @@ body {
     width: 150px;
     height: 150px;
     background-color: blue;
-    position: relative;
+    position: absolute;
 
+}
+
+.negativo {
+    width: 150px;
+    height: 150px;
+    border: 1px dashed red;
+    position: absolute;
 }

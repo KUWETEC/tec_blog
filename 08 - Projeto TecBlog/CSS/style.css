@@ -1,0 +1,172 @@
+/*Reset CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em; /* 16px */
+    background-color: #e6e6e6;
+}
+
+/*Layout da página*/
+
+.area-cabecalho {
+    background-color: #f7b600;
+    padding: 20px;
+    text-align: center;
+}
+
+.area-menu, .area-logo {
+    padding: 10px;
+}
+
+.container {
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.area-postagens {
+    width: 660px;
+    float: left;
+}
+
+.area-lateral {
+    width: 240px;
+    float: right;
+}
+
+.rodape {
+    background-color: #CCC;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    clear: both;
+}
+
+.postagens {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral {
+    background-color: #fff;
+    padding 10px
+    margin-bottom: 10px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* last-child, first-child, nth-child */
+.postagem-lateral:last-child{ 
+    border-bottom: none;
+}
+
+/* Formatações Gerais */
+
+h2 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #f7b600;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid indigo;
+}
+
+img {
+    width: 620px;
+}
+
+.branco {
+    color: #fff;
+}
+
+/*
+Não foi acessado ainda
+ 
+a:link {  
+    color: black;  
+}
+
+Quando passo o mouse por cima
+
+a:visited {
+    color: black;
+}
+
+Site que foi ou está sendo visitado
+
+a:hover {
+    color: white;
+}
+
+Quando clico em cima do link
+
+a:active {
+
+}
+
+Para distaciar os links
+
+padding {
+    8px 12px
+*/
+
+a{
+    text-decoration: none;
+} 
+
+.area-menu a:link, .area-menu a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+
+.area-menu a:hover {
+    color: #f7b600;
+    background-color: #fff;
+    transition: .90s;
+    border-radius: 10px;
+}
+
+.container a:link, .container a:visited{
+    color: #f7b600;
+}
+
+.container a:hover{
+    color: #f7b600;
+    text-decoration: underline;
+    transition: .75s;
+}
+
+/*Area Jogos*/
+
+.area-jogos{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    display: inline-block;
+}
+
+.jogos{
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
